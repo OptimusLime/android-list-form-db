@@ -23,23 +23,23 @@ public class BookAdapter extends BaseAdapter {
 		this.listBook = newListBook;
 	}
 
-	@Override
+//	@Override
 	public int getCount() {
 		return this.listBook.size();
 	}
 
-	@Override
+//	@Override
 	public Book getItem(int position) {
 		return this.listBook.get(position);
 	}
 
-	@Override
+//	@Override
 	public long getItemId(int position) {
 		// TODO Auto-generated method stub
 		return position;
 	}
 
-	@Override
+//	@Override
 	public View getView(int position, View view, ViewGroup viewGroup) {
 		View vi = view;
 		if (vi == null) {

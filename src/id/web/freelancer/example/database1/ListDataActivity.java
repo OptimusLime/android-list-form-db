@@ -54,7 +54,7 @@ public class ListDataActivity extends Activity {
 		buttonCreate = (Button) findViewById(R.id.buttonCreate);
 		buttonCreate.setOnClickListener(new OnClickListener() {
 
-			@Override
+//			@Override
 			public void onClick(View arg0) {
 				showFormDialog();
 			}
@@ -63,7 +63,7 @@ public class ListDataActivity extends Activity {
 		prepareDiaog();
 	}
 
-	@Override
+//	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
 			ContextMenuInfo cmInfo) {
 		if (v.getId() == R.id.lsvListBook) {
@@ -142,7 +142,7 @@ public class ListDataActivity extends Activity {
 
 		btnSimpan.setOnClickListener(new OnClickListener() {
 
-			@Override
+//			@Override
 			public void onClick(View view) {
 				Book book = bookDB.get(txtISBN.getText().toString());
 				if (book != null) {
@@ -164,7 +164,7 @@ public class ListDataActivity extends Activity {
 
 		btnBack.setOnClickListener(new OnClickListener() {
 
-			@Override
+//			@Override
 			public void onClick(View view) {
 
 				formDialog.hide();
